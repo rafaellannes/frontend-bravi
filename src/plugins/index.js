@@ -1,0 +1,2 @@
+require('./vueSnotify');
+require('./vueModal');

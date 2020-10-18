@@ -1,0 +1,85 @@
+body {
+  padding-top: 56px;
+  background-color: #fbfbfb;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.preloader {
+  position: absolute;
+  background: #000;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999999;
+  text-align: center;
+}
+
+.preloader img {
+  width: 100px;
+  margin-top: 10%;
+}
+
+.bg-main {
+  background: #0b505b;
+}
+
+.logo {
+  width: 70px;
+  max-width: 100%;
+}
+
+.title-tenant {
+  color: #0b505b;
+  margin: 10px 0;
+}
+
+.card-footer-custom {
+  padding: 0.75rem 1.25rem;
+  background-color: #0b505b;
+  border-top: 1px solid rgb(182, 49, 50);
+  text-align: center;
+}
+
+.img-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.my-lists .my-table,
+.my-lists .my-table-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0 10px;
+  align-items: center;
+  font-size: 14px;
+  padding: 0px 10px;
+}
+
+.my-lists .my-table {
+  padding: 20px 10px;
+  background: #fff;
+  border-bottom: 2px solid #f1f1f1;
+  transition: border 0.5s ease, background 0.5s ease;
+  font-weight: 500;
+}
+.my-lists .my-table:nth-child(odd) {
+  background: #f1f1f126;
+}
+.my-lists .my-table:hover {
+  border-color: #0b505b;
+  background: #4471130f;
+}
+.text-transparent {
+  color: transparent;
+  user-select: none;
+  opacity: 0;
+}
+.card-header {
+  background-color: #158293;
+  border-bottom: 1px solid #0c505b;
+}
